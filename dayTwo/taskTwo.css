@@ -1,0 +1,25 @@
+body {
+  background-color: #1b1b32;
+}
+.cont {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: #f5f6f7;
+}
+/* label {
+  display: block;
+} */
+.block {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+fieldset {
+  margin: auto;
+  width: 30%;
+}
+fieldset input,
+fieldset label {
+  display: inline;
+}

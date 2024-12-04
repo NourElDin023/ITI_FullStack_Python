@@ -1,0 +1,70 @@
+#logo{
+    width: 150px;
+    height: 75px;
+}
+#profile{
+    width: 250px;
+    height: 300px;
+}
+.linkpic{
+    width: 50px;
+    height: 50px;
+}
+#log{
+    margin-bottom: 2%;
+}
+input{
+    margin-bottom: 2px;
+}
+thead{
+    background-color: #777d6a;
+    height: 100px;
+}
+#nav{
+    background-color: #a9ae9f;
+    height: 50px;
+}
+#left{
+    width: 15%;
+    background-color: #999f8e;
+    vertical-align: top;
+
+}
+#mid{
+    background-color: #d2d8c7;
+    vertical-align: top;
+    padding-left: 20px;
+}
+#right{
+    width: 20%;
+    background-color: #bfbfbf;
+}
+tfoot{
+    background-color: #777d6a;
+    color: #800000;
+    font-weight: bold;
+    height: 100px;
+}
+table{
+    border-spacing: 0px;
+}
+#login{
+    height: 150px;
+}
+li{
+    margin-top: 15px;
+}
+iframe{
+width: 90%;
+}
+h1{
+    color: #800000;
+}
+
+.white{
+    color: white;
+    font-weight: bold;
+}
+body{
+    margin: 0px;
+}
