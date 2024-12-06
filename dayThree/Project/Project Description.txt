@@ -1,0 +1,55 @@
+1-
+Home Page: Page with user interface look like the file Named "Home page.png"
+include Link to following Pages: About , Blog , Work , features , Contact  
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In 
+include Site Logo and Site Title
+include any content look like the content in the file Named "Home page.png"
+
+
+2-
+About Page : Page with user interface look like the file Named "About page.png"
+include Link to following Pages : Home , Blog , Work , feature , Contact 
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In 
+include Site Logo and Site Title
+include any content look like the content in the file Named "About page.png" 
+include images & Information about your team .
+
+
+3-
+Blog Page : Page with user interface look like the file Named "Blog page.png"
+include Link to following Pages : Home , About , Work , feature , Contact  
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In 
+include Site Logo and Site Title
+include any content look like the content in the file Named "Blog page.png" 
+
+
+4-
+Work Page : Page with user interface look like the file Named "Work page.png"
+include Link to following Pages : Home , About , Blog, feature , Contact  
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In 
+include Site Logo and Site Title
+include any content look like the content in the file Named "Work page.png" 
+Note : if your content doesn’t have work you can replace it with Products
+
+
+5-
+Features page: Page with user interface look like the file Named "Features page.png"
+include Link to following Pages : Home , About , Blog, Work, Contact  
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In
+include Site Logo and Site Logo
+include any content look like the content in the file Named "Features page.png"
+
+
+6-
+Contact Page : Page with user interface look like the file Named "Contact page.png"
+include Link to following Pages : Home , About , Blog, Work, Features
+include Link to your social media pages : Facebook , Google+ , Twitter , Linked In
+include Site Logo and Site Logo
+include any content look like the content in the file Named "Contact page.png"
+
+
+General Style Such as Font , Heading , Background color for all pages must be in External CSS file , otherwise you can use internal and inline style. 
+Feel Free to use any color for your design
+Bonus :
+*While scrolling in any page the upper box includes link must be in a fixed position
+*Show Bullets of the menu in Features page as Arrows (Images) (Same as in Example)
