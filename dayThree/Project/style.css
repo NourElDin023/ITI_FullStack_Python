@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
 .profilecontainer {
     height: 30px;
     background-color: #2f3239;
@@ -17,7 +21,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .profiles ul {
@@ -46,11 +49,12 @@ header {
     width: 80%;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .nav ul {
     list-style: none;
     display: flex;
@@ -60,8 +64,31 @@ header {
 .nav ul li {
     display: inline;
 }
+
 .nav ul li a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.maincont {
+    background-color: #ff7462;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section {
+    width: 40%;
+}
+
+.mainimg {
+    max-width: 100%;
 }
