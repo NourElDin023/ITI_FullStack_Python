@@ -50,8 +50,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
     color: #f3f3f3;
+    height: 50px;
+
 }
 
 .logo img {
@@ -67,16 +69,32 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
+    height: 100%;
+    vertical-align: middle;
+
     gap: 20px;
 }
 
 .nav ul li {
+    height: 100%;
+    vertical-align: middle;
     display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+
+.activepage {
+    background-color: #ff7462;
+    height: 100%;
 }
 
 .nav ul li a {
@@ -84,6 +102,8 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    vertical-align: middle;
+
 }
 
 .maincont {
@@ -137,7 +157,7 @@ button {
 .card {
     width: 48%;
     height: 90px;
-    background-color: #383c45;
+    background-color: #ffffff;
     display: flex;
     gap: 10px;
 }
@@ -146,6 +166,7 @@ button {
     width: 50px;
     height: 50px;
 }
-.cardcont{
+
+.cardcont {
     width: 60%;
 }
