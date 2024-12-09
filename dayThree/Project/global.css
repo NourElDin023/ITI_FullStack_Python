@@ -82,20 +82,15 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-    vertical-align: middle;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
     height: 100%;
-    vertical-align: middle;
-    gap: 20px;
 }
 
 .nav ul li {
-    height: 100%;
-    display: inline;
     display: flex;
     flex-direction: column;
     justify-content: center;
