@@ -8,11 +8,60 @@
 .rightCont {
     width: 75%;
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-right: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
 }
 
+.rightCont table {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #373c4250;
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 230px;
+    max-width: 250px;
+}
+
+.rightCont td {
+    border: 1px solid #373c4250;
+    height: 30px;
+    color: #373c42;
+    padding: 10px;
+}
+
+.rightCont .planHead{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table .price{
+    background-color: #f3f3f3;
+}
+.price span{
+    font-size: 30px;
+    color:#ff7462;
+    font-weight: bold;
+}
+
+table .button{
+    padding: 0px;
+}
+.rightCont button {
+    width: 100%;
+    background-color: #373c42;
+    border: none;
+    color: #fff;
+    height: 140%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* ////////////////////// */
 
 .leftCont {
     width: 23%;
@@ -59,9 +108,10 @@ hr {
     height: 1px;
 }
 
-.leftCont h3{
+.leftCont h3 {
     font-size: 14px;
 }
-.leftCont p{
+
+.leftCont p {
     font-size: 11px;
 }
