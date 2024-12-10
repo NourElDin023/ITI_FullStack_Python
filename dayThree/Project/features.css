@@ -31,23 +31,25 @@
     padding: 10px;
 }
 
-.rightCont .planHead{
+.rightCont .planHead {
     font-size: 30px;
     font-weight: bold;
 }
 
-table .price{
+table .price {
     background-color: #f3f3f3;
 }
-.price span{
+
+.price span {
     font-size: 30px;
-    color:#ff7462;
+    color: #ff7462;
     font-weight: bold;
 }
 
-table .button{
+table .button {
     padding: 0px;
 }
+
 .rightCont button {
     width: 100%;
     background-color: #373c42;
@@ -60,9 +62,6 @@ table .button{
 }
 
 
-
-/* ////////////////////// */
-
 .leftCont {
     width: 23%;
     display: flex;
@@ -74,7 +73,7 @@ table .button{
 input {
     height: 35px;
     padding-left: 8px;
-    border-width: 3px;
+    border: 3px solid #6464648e;
 }
 
 ul {
