@@ -1,0 +1,78 @@
+.midSection iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+hr {
+    background-color: #64646450;
+    border: none;
+    height: 1px;
+}
+
+.thirdCont {
+    width: 75%;
+    margin: 30px auto;
+    color: #373c42;
+    padding-bottom: 50px;
+}
+
+.thirdSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+}
+
+input {
+    height: 25px;
+    padding: 8px;
+    border: 1px solid #6464648e;
+    width: 300px;
+}
+
+textarea {
+    height: 200px;
+    padding: 8px;
+    border: 1px solid #6464648e;
+    width: 90%;
+}
+
+
+button {
+    width: 150px;
+    height: 35px;
+    background-color: #373c42;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
