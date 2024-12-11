@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            padding: 5px 50px 5px 5px;
+            display: inline-block;
+        }
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <form id="loginForm">
+            <input type="text" placeholder="Username" id="userName">
+            <input type="text" placeholder="Password" id="userPassword">
+            <input type="button" value="LOGIN" id="loginBtn">
+        </form>
+        <p>Not Registered? <a href="#">Create an account</a></p>
+    </div>
+    <div id="screen"
+        style="background-color: aquamarine; width: 100vw; height: 100vh; position: absolute; top: 0px; left: 0px; display: flex; align-items: center; justify-content: center; visibility: hidden; font-size: 100px;">
+    </div>
+    <!-- ----------- -->
+    <br>
+    <hr>
+    <br>
+    <div class="taskTwo">
+        <input type="text" id="str1" placeholder="enter first set 1,2,3,4">
+        <input type="text" id="str2" placeholder="enter second set 1,2,3,4">
+        <p id="finalArr"></p>
+        <button id="mergeBtn">Merge and Remove Duplicates</button>
+    </div>
+    <!-- ----------- -->
+    <br>
+    <hr>
+    <br>
+    <div id="taskThree" >
+        <p>Task
+            <input type="text" placeholder="Task Name" id="taskName">
+            <input type="button" value="Add" id="addBtn">
+        </p>
+    </div>
+    <script src="./day4.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- // addBtn.addEventListener("click", addTask);
+// function addTask() {
+//   var newTask = document.createElement("li");
+//   newTask.innerHTML =
+//     "<span id='newName'> Task 1</span><button id='taskDone'>✔</button><button id='taskNotDone'>✘</button>";
+//   var textNode = document.createTextNode("");
+//   newTask.appendChild(textNode);
+//   taskList.appendChild(newTask);
+//   taskThree.appendChild(taskList);
+//   var newName = document.getElementById("newName");
+//   newName.innerText = taskName.value;
+// } -->
