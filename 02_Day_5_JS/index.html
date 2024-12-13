@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 JS</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .taskOne {
+            text-align: center;
+            margin-top: 20px;
+            /* Optional top margin */
+        }
+
+        h3 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            margin: 0;
+            /* Remove top margin */
+            width: 300px;
+            /* Match width of image */
+            display: inline-block;
+            /* Make it inline with image */
+            box-sizing: border-box;
+            /* Include padding in the width */
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: #45a049;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            /* Remove bottom margin */
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <script src="./newLib.js"></script>
+</head>
+
+<body>
+
+    <div class="taskOne">
+        <img src="https://via.placeholder.com/300" alt="Image">
+        <h3>Image Title</h3>
+    </div>
+
+    <div class="buttons">
+        <button id="prevButton">Previous</button>
+        <button id="nextButton">Next</button>
+        <button id="playButton">Play</button>
+        <button id="stopButton">Stop</button>
+        <button id="speed1xButton">1x (6s)</button>
+        <button id="speed2xButton">2x (4s)</button>
+        <button id="speed3xButton">3x (2s)</button>
+    </div>
+
+    <script src="./day5.js"></script>
+    <script>
+        addCookie("user", "Test_Test", 2);
+        getCookie("user")
+        checkCookie("user");
+    </script>
+</body>
+
+</html>
