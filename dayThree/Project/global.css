@@ -15,6 +15,11 @@ body {
 .profilecontainer {
     height: 30px;
     background-color: #2f3239;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
 }
 
 .profiles {
@@ -45,6 +50,11 @@ body {
 
 .headcontainer {
     background-color: #383c45;
+    /* position: sticky;
+    top: 30px;
+    left: 0px;
+    z-index: 3;
+    width: 100%; */
 }
 
 header {
@@ -54,7 +64,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
     height: 60px;
 }
 
@@ -122,6 +131,11 @@ header {
 .secondHeadCont {
     background-color: #ff7462;
     height: 45px;
+    /* position: sticky;
+    top: 90px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;*/
 }
 
 .secondHead {
