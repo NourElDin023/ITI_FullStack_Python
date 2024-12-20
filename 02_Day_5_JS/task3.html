@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Local Storage</title>
+    <script src="task3.js" defer></script></head>
+<body>
+    <h1>Contact Form</h1>
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter Name" required />
+        <input type="email" id="email" placeholder="Enter Email" required />
+        <input type="phone" id="phone" placeholder="Enter Phone Number" required />
+        <button type="submit">Add User</button>
+    </form>
+
+    <!-- Search Bar -->
+    <input type="text" id="search" placeholder="Search by Name" />
+
+    <!-- Table to display users -->
+    <table id="userTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- User data will be added here -->
+        </tbody>
+    </table>
+</body>
+</html>
