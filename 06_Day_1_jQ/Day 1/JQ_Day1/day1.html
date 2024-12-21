@@ -1,0 +1,70 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"> 
+    <head> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">lec41@mcitegypt.onmicrosoft.com</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">11000.0000000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">lec41@mcitegypt.onmicrosoft.com</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x0101</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+    <style>
+        .myclass{
+            background-color:  red;
+        }
+    </style>
+    <body>
+
+        <p> p 1 </p>
+        <p>p 2</p>
+        <p> p3 </p>
+        <p> p4 </p>
+
+        <input id="btn" type="button" value="click me" />
+        <script>
+            $(document).ready(function(){
+                $("#btn").click(function(){
+                    var colors = ["red", "orange", "blue"] 
+                    var fontColor = ["green", "blue", "aqua"]
+                    $('p').each(function(i){
+                        console.log(i)
+                        $(this).text(colors[i])
+                        $(this).css(
+                        {
+                             "background":  colors[i],
+                             "color": fontColor[i] 
+                        
+                        
+                        })
+                        // 
+                        
+                    })
+                    
+                })
+            })
+
+
+            
+        
+        
+        
+        
+        
+        </script>
+
+
+
+    </body>
+
+
+
+
+
+
+
+</html>

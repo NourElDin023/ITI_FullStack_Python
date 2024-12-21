@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+      // $("td:empty").css("background", "red")
+
+      $("tr:odd").css({
+        "background": "red",
+        "color": "yellow"
+      })
+
+      $("td:empty").css("background", "green")
+  })
+});
+</script>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">lec41@mcitegypt.onmicrosoft.com</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">13900.0000000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">lec41@mcitegypt.onmicrosoft.com</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x0101</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<button> hide </button>
+<h1>Welcome to My Web Page</h1>
+
+<table border="1">
+  <tr>
+    <th>Company 0</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste 1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbk�p 2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>hello</td>
+    <td>Mexico</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Austria</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td></td>
+  </tr>
+</table>
+
+</body>
+</html>
